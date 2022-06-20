@@ -1,0 +1,8 @@
+body {
+  background-color: red;
+}
+#link {
+  text-decoration: none;
+  color: black;
+  font-family: fantasy;
+}

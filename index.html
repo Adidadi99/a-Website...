@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>a-Website...</title>
+  </head>
+
+  <body>
+    <script>
+      var audioplayer;
+      var videopalyer;
+      function onClick(){
+        audioplayer = document.getElementById("adWhy");
+        audioplayer.volumen = 0.5;
+        audioplayer.play();
+      }
+      
+      function onClick2(){
+        videoplayer = document.getElementById("viYes");
+        videoplayer.volumen = 0.5;
+        videoplayer.play();
+      }
+    </script>
+    <audio src="Tell_me_why.mp3" id="adWhy"></audio>
+    <video src="yes.mp4" id="viYes"></video>
+    <button onclick="onClick()">Just Dont...</button>
+    <button onclick="onClick2()">Klick the left Button first!</button>
+  </body>
+
+</html>
